@@ -12,3 +12,17 @@ Markov chains have a wide range of applications in various fields. Here are a fe
 So,  Markov chains are a way to understand and predict how things change over time. Imagine you have a system that can be in different states, like a weather system with states such as sunny, cloudy, or rainy.
 
 A Markov chain helps us figure out the probability of moving from one state to another. For example, if it's sunny today, there might be a 70% chance it will be sunny tomorrow, a 20% chance it will be cloudy, and a 10% chance it will be rainy.
+
+## Central Limit Theorem:
+
+It states that when we take many random samples from a population, the distribution of the sample means or sums tends to follow a bell-shaped curve, known as a normal distribution, even if the individual observations themselves don't have a normal distribution.
+
+In practical terms, this means that if we have a large enough sample size, and as long as certain conditions are met (such as the random variables being independent and having finite variances), the distribution of the sample means or sums will be approximately normal, regardless of the underlying distribution of the population.
+
+Why is this important? The Central Limit Theorem has several uses and implications:
+
+1. Statistical Inference: It forms the foundation for many statistical tests and confidence intervals. When we have a large sample size, we can rely on the normal distribution to make inferences about the population parameters. For example, we can estimate the population mean or test hypotheses about it.
+2. Sampling and Surveys: When conducting surveys or sampling from a population, the Central Limit Theorem allows us to estimate population characteristics accurately. We can calculate margins of error and confidence intervals based on the normal distribution assumption, enabling us to make reliable conclusions about the population based on the sample.
+3. Data Analysis: The Central Limit Theorem is often applied when working with real-world data. Many natural phenomena and measurements tend to exhibit a bell-shaped distribution due to the combined effect of numerous factors. By assuming a normal distribution, we can analyze and interpret the data more effectively.
+4. Modeling and Simulation: The Central Limit Theorem is employed in modeling and simulation to represent and understand complex systems. It allows us to approximate the behavior of a system by using the normal distribution as an approximation for the aggregated effect of numerous independent factors.
+
